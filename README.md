@@ -10,6 +10,5 @@
 ![khudalagsee (5)](https://github.com/yasirrabbanitanvir/Khudalagse/assets/122333932/53a55716-5102-469b-a826-70dbc5bb2ab7)
 ![khudalagsee (6)](https://github.com/yasirrabbanitanvir/Khudalagse/assets/122333932/73de1ccf-1e1c-4ba4-8d09-dfb61a0acaf1)
 ![khudalagsee (7)](https://github.com/yasirrabbanitanvir/Khudalagse/assets/122333932/d12b59f2-918a-4e30-a5fb-1bd0c0527ff1)
-![khudalagsee (8)](https://github.com/yasirrabbanitanvir/Khudalagse/assets/122333932/4a4b68a5-cb84-464e-a3c0-3c8fabd60722)
 
 
