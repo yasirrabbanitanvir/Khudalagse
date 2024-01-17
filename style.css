@@ -1,0 +1,430 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header Section */
+.header-section {
+  max-height: 100px;
+  background-color: #2c3e50;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo i {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.navbar a.active {
+  border-bottom: 2px solid #f8f9fa;
+}
+
+
+
+/* Top Banner Area */
+
+.banner1-img{
+  max-width: 480px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+.banner2-img {
+  max-width: 480px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.product-tab-section {
+  padding: 60px 0;
+  text-align: center;
+  /* max-width: 300px; */
+}
+
+.product-tab-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.product-tab-section p {
+  font-size: 18px;
+  color: #555;
+ 
+}
+
+.product-tab-section a.orange {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff8c00;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* About Area */
+.product-tab-section h1 span {
+  color: #ff8c00;
+}
+
+/* Service Area */
+.area {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.area h1 span {
+  color: #ff8c00;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 15px;
+  padding: 20px;
+}
+
+.card img,
+.gallery .card-1 img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+  max-width: 200px; 
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Gallery Area */
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-1 {
+  width: calc(33.33% - 15px);
+  margin-bottom: 20px;
+}
+
+.card-1 img {
+  border-radius: 8px;
+}
+
+.card-1 h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Menu Section */
+.menu {
+  background-color: #f8f9fa; 
+  padding: 60px 0; 
+}
+
+.menu .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu .card {
+  margin-bottom: 20px;
+}
+
+.menu .card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu .card-body {
+  padding: 15px;
+}
+
+.menu .card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.menu .buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .price h5 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.menu .btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #ff8c00; 
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .menu .card {
+    width: 100%;
+  }
+}
+
+
+/* Extra Card Section */
+.background {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 15px;
+  padding: 20px;
+}
+
+.background img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
+
+.background h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.background p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer Area */
+footer {
+  background-color: #1d1c1e;
+  color: #dfdfdf;
+}
+
+.icon {
+  text-align: center;
+}
+
+  .fa-brands {
+      font-size: 24px;
+      color: #4CAF50;
+      margin: 0 5px;
+      transition: color 0.3s ease;
+    }
+    
+    .fa-brands:hover {
+      color: #333;
+    }
+
+
+
+.btn-shop-now {
+  background-color: #f0a500;
+  color: #28313b;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-shop-now:hover {
+  background-color: #d88c00;
+}
+
+.newsletter-title {
+  text-align: center;
+}
+
+.font-monospace {
+  text-align: center;
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    margin: 10px 0;
+  }
+
+  .product-tab-section h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .product-tab-section p {
+    font-size: 16px;
+  }
+
+  .product-tab-section a.orange {
+    margin-top: 15px;
+  }
+
+  .card-1 {
+    width: 100%;
+  }
+
+  .menu {
+    margin-left: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* Loader
+/* --------------------------------------------------------------------------------------- */
+
+
+.o-page-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1000;
+}
+
+.o-page-loader--content {
+  text-align: center;
+}
+
+.o-page-loader--spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+.o-page-loader--message {
+  margin-top: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#mainContent {
+  display: none; /* Hide main content initially */
+}
+
+
+#mainContent {
+  text-align: center;
+  margin: 50px;
+}
+
+#mainContent .logo-container {
+  margin-bottom: 20px;
+}
+
+#mainContent .logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+#mainContent h1 {
+  color: #3498db;
+}
+
+#mainContent #mainText {
+  font-size: 18px;
+  color: #333;
+}
+
+#mainContent #changeContent {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#mainContent #changeContent:hover {
+  background-color: #2980b9;
+}
+
+.khudalogo{
+  max-width: 480px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
